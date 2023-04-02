@@ -1,0 +1,3 @@
+The Singleton pattern is a creational design pattern that ensures that a class has only one instance, and provides a global point of access to that instance.
+
+In this example, the `MySingleton` class has a private constructor that raises an exception if an instance of the class already exists. The `get_instance` method is a static method that returns the existing instance of the `MySingleton` class, or creates a new instance if one doesn't exist. The example shows that `s1` and `s2` are both instances of the `MySingleton` class, but since the `MySingleton` class only allows one instance to be created, they are both the same instance.
